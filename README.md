@@ -12,4 +12,5 @@ Borracha: SPACE
 Quadrado: SHIFT
 
 Triangulo: Ctrl
+
 ----------------------------------------------------
