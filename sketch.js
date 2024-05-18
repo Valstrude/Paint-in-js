@@ -66,8 +66,8 @@ function save_canvas() {
 function pensil() {
   using[0] = true
   using[1] = false
+  using[2] = false
   using[3] = false
-  using[4] = false
   click[0] = ("rgb(100,100,100)")
   click[1] = ("rgb(216,216,216)")
   click[2] = ("rgb(216,216,216)")
@@ -216,5 +216,25 @@ function draw() {
   if (keyIsDown(82)) {
   fill(bg_color)
   rect(0, 91, width, height - menu_height)
+  }
+  
+  // tecla de atalho: lapis
+  if (keyIsDown(69)) {
+    pensil()
+  }
+  
+  // tecla de atalho: borracha
+  if (keyIsDown(32)) {
+    eraser()
+  }
+  
+  // tecla de atalho: quadrado
+  if (keyIsDown(16)) {
+    draw_quadrado()
+  }
+  
+  // tecla de atalho: triangulo
+  if (keyIsDown(17)) {
+    draw_triangulo()
   }
 }
