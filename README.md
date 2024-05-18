@@ -8,9 +8,9 @@ Apagar todo o Desenho: R
 
 Lápis: E
 
-Borracha: SPACE
+Borracha: Space
 
-Quadrado: SHIFT
+Quadrado: Shift
 
 Triangulo: Ctrl
 
