@@ -1,17 +1,17 @@
 # Paint-in-js
 
-#teclas de atalho:
+teclas de atalho:
 
 ----------------------------------------------------
 
-#Apagar todo o Desenho: R
+Apagar todo o Desenho: R
 
-#Lápis: E
+Lápis: E
 
-#Borracha: SPACE
+Borracha: SPACE
 
-#Quadrado: SHIFT
+Quadrado: SHIFT
 
-#Triangulo: Ctrl
+Triangulo: Ctrl
 
 ----------------------------------------------------
